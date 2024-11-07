@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECS</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-entity 
+        geometry="primitive:ring" 
+        material="color:#89CC04"
+        light="intensity: 0.5; type: hemisphere" 
+        position="0 1 -1">
+
+        <a-entity 
+        geometry="primitive:sphere" 
+        material="src:assets/bratblanco.png"
+        light="intensity: 0.5; type: hemisphere" 
+        position=" 4 4 4">
+ 
+        <a-entity 
+        geometry="primitive: torusKnot" 
+        material="src:assets/fantanobrat.jpeg" 
+        position="-5.253 -2.69845 1">
+
+        <a-sky color="black"></a-sky>
+
+    </a-scene>
+</body>
+</html>
