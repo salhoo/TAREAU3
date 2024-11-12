@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EntidadTexto</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+
+</head>
+<body>
+    <a-scene>
+        <a-entity 
+        text="color: #000000; value: te convertiste en agua, riachuelo; wrapCount: 8.72" position="0 1 -1"
+        geometry="primitive: plane" material="color: blue" position="-10 0 0" 
+        ></a-entity>
+        <a-assets>
+            <audio id="river" src="riachuelo.mp3" preload="auto"></audio>
+          </a-assets>
+        
+          <a-entity sound="src: #riachuelo"></a-entity>
+    
+    </a-scene>
+    
+</body>
+</html>
