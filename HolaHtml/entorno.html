@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+      <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+
+</head>
+<body>
+    <a-scene>
+        <a-entity geometry="primitive:sphere" material="src:assets/brat.jpg" position="0 0.5 -4" scale="1
+        21" rotation="0 2 0"></a-entity>
+        <a-entity environment="preset:goaland; dressingAmount: 1000; dressingColor:CCA9DD; skyColor:#b6ffff;
+        horizonColor: #0979b0"></a-entity>
+        <a-text value="Fungi World" font="font:assets/fonts/custom4-msdf.json" font-image="fontimage:assets/
+        fonts/custom4-png" negative="false"
+        color="purple" position="2 2 0" width="6"></a-text>
+
+    </a-scene>
+<body>
+</html>
